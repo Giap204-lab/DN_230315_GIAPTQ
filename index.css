@@ -1,0 +1,32 @@
+#img1 {
+    height: 400px;
+    width: 1000px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.text {
+    color: #0b0b04;
+    position: absolute;
+    top: 10px;
+    background-color: rgb(188, 204, 99);
+    margin-left: 300px;
+    margin-top: 300px;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+
+.row1::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.row1 {
+    padding-left: 400px;
+}
+.img2 {
+    border-top: 5px solid rgb(245, 245, 11);
+}
